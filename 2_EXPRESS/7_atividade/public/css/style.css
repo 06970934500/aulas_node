@@ -12,7 +12,8 @@ body{
 }
 
 h1{
-    padding: 2rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
     background: rgb(59, 59, 220);
     color: white;
 }
@@ -26,9 +27,12 @@ label{
 }
 
 button{
+    top: 4rem;
+    padding: 0.5rem;
     color: white;
     background: rgb(59, 59, 220);
-    
+    border: none;
+    border-radius: 2rem;
 }
 
 .formu{
@@ -55,4 +59,12 @@ input{
     border-radius: 2rem;
     border: none;
     outline: none;
+    margin-bottom: 0.5rem;
+}
+
+a{
+    top: 3rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 2rem;
 }
